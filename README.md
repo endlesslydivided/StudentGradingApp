@@ -7,3 +7,5 @@
 docker compose up --build
 
 ```
+
+App is available on port 81.
