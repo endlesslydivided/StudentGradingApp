@@ -86,7 +86,7 @@ const getSelected = async (id: string) => {
     selectedItemLabels.value = selectedGrades.value.grades.map(
       (grade: IStudentGrades) => grade.subject.name
     )
-    selectedItemData.value = selectedGrades.value.grades.map((grade: IStudentGrades) => grade.value)
+    selectedItemData.value = selectedGrades.value.grades.map((grade: IStudentGrades) => grade.mark)
     selectedItemTitle.value = 'Selected student statistics'
   }
 

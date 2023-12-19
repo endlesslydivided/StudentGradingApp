@@ -31,7 +31,7 @@ export interface IDecileStat {
 }
 
 export interface IStudentGrades {
-  value: string
+  mark: string
   subject: {
     name: string
   }
